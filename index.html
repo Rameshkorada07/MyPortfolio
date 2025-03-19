@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🩵Ramesh Frontend Developer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="nav">
+            <div class="links" id="links">
+                <ul>
+                    <div class="cancel-btn"><img id="cancel-btn" onclick="hideMenu()" src="images/cancel.png" alt=""></div>
+                    <li><button onclick="scrollToSection('left-section')"><a href="#home">Home</a></button></li>
+                    <li><button onclick="scrollToSection('about-section')"><a href="#about">About</a></button></li>
+                    <li><button onclick="scrollToSection('projects-section')"><a href="#projects">Projects</a></button></li>
+                    <li><button onclick="scrollToSection('contact-section')"><a href="#contact">Conatct</a></button></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <img id="menu-btn" onclick="showmenu()" src="images/menu.png" alt="">
+            </div>
+            
+        </div>
+        <!--------------------Left part------------------------>
+        <div class="overlay" id="overlay"></div>
+        <div class="left" id="left-section">
+            
+            <img class="profile-pic" src="images/profile.jpg" alt="">
+            <h3>Ramesh Korada</h3>
+            <h2><span>Frontend</span> Developer</h2>
+            <div class="left-middle">
+                <div class="links bottom-links">
+                    <ul>
+                        <li><button onclick="scrollToSection('home-section')"><a href="#home">Home</a></button></li>
+                        <li><button onclick="scrollToSection('about-section')"><a href="#about">About</a></button></li>
+                        <li><button onclick="scrollToSection('projects-section')"><a href="#projects">Projects</a></button></li>
+                        <li><button onclick="scrollToSection('contact-section')"><a href="#contact">Conatct</a></button></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <ul>
+                        <li><button><a href="https://www.linkedin.com/in/ramesh-korada-8566622b5/" target="_blank"><img src="images/linkedin (1).png" alt=""></a></button></li>
+                        <li><button><a href="https://github.com/Rameshkorada07" target="_blank"><img src="images/github.png" alt=""></a></button></li>
+                        <li><button><a href="https://www.instagram.com/vinnu_ofcl_/" target="_blank"><img src="images/social-media (1).png" alt=""></a></button></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="quote">
+                <p>Crafting beautiful, functional, and user-friendly web apps. <br>
+                    Let's create something awesome!</p>
+            </div>
+
+
+                <div class="left-bottom">
+                    <button><a href="https://1drv.ms/w/s!Am4gKNkGBImKlqIhNhkAwZlPLBZbVQ?e=sp7i8F" target="_blank">Save My CV</a></button>
+                </div>
+        </div>
+
+        <!--------------------Right part------------------------>
+        
+        <div class="right">
+
+            <!--------------------Home------------------------>
+
+            <div class="home" id="home-section">
+                <div class="greet">
+                    <h2>Welcome!</h2>
+                    <p>Hi, I'm Ramesh, a passionate web developer <br>
+                        crafting user-centric applications.</p>
+                </div>
+                <div class="tools">
+                    <ul>
+                        <li><button><a href=""><img src="images/html-5.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/css-3.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/bootstrap-5-logo-icon.webp" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/js.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images//figma.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/science.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/java.png" alt=""></a></button></li>
+                        <li><button><a href=""><img src="images/sql-server.png" alt=""></a></button></li>
+                    </ul>
+                </div>
+                <div class="hireMe-bottom">
+                    <button onclick="scrollToSection('contact-section')">Get in touch</button>
+                </div>
+            </div>
+
+            <!--------------------About me------------------------>
+
+            <div class="about" id="about-section">
+                <h3 class="title">About me</h3>
+                
+                <div class="details">
+                    <div class="top">
+                        <div class="image">
+                           <img src="images/about-img.jpg" alt=""> 
+                        </div>
+                        <div class="top-info">
+                            <p> 
+                                <div class="about-icons">
+                                    <img src="images/coding.png" alt=""><span>Programming Concepts</span>
+                                </div>
+
+                                I am a frontend developer with strong skills in different programming languages and the ability to adapt quickly to new technologies. This flexibility allows me to handle changing project needs and deliver practical solutions that work effectively. I stay updated with the latest trends to create designs and features that are both modern and user-friendly, ensuring each project meets its goals.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="bottom">
+                        <div class="bottom-info">
+                            <p> 
+                                <div class="about-icons">
+                                    <img src="images/bulb.png" alt=""><span>Problem Solving</span>
+                                </div>
+                                I enjoy solving problems by breaking them into smaller parts to find the best solutions. Whether it’s fixing code issues or improving how things work, I approach every challenge with focus and care. My goal is always to provide solutions that are effective and well thought out. <br> <br>
+                                
+                                <div class="about-icons">
+                                    <img src="images/speech-bubble.png" alt=""><span>Communication</span>
+                                </div>
+                                With experience as a communicator, I make technical ideas easy to understand for everyone. I work well with teammates and clients by sharing ideas clearly and listening to others. This ensures that projects run smoothly and everyone stays on the same page. <br> <br>
+                                
+                               
+                                <div class="about-icons">
+                                    <img src="images/teamwork.png" alt=""><span> Teamwork</span>
+                                </div>
+                                Teamwork is at the heart of how I work. I believe in creating a collaborative and inclusive environment where everyone feels valued and supported. By sharing ideas, learning from others, and working together toward common goals, I contribute to a positive and productive atmosphere that drives success for the entire team.</p> <br>
+
+                                <div class="about-icons">
+                                    <img src="images/settings.png" alt=""><span>Customer Service</span>
+                                </div>
+                                Providing excellent customer service is a top priority for me. I take the time to understand each client's needs and focus on delivering solutions that meet their expectations. By maintaining open communication and ensuring satisfaction, I aim to build long-lasting relationships based on trust, reliability, and quality results.</p> <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------Projects------------------------>
+
+            <div class="projects" id="projects-section">
+                <h3 class="title">Projects</h3>
+                <div class="projects-container">
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project1.mp4" type="video/mp4">
+                            
+                          </video>
+                        
+                        <div class="git-icon">
+                            <p>Flavor Find</p>
+                            <a target="_blank" href="https://github.com/Rameshkorada07/FlavorFind"><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>FlavorFind brings the world together through flavors, sharing recipes, stories, tips, and culinary inspiration.</p>
+                                 <div class="pro-icons">
+                                    
+                                        <ul>
+                                            <li><img src="images/pro-html.png" alt=""></li>
+                                            <li><img src="images/pro-css.png" alt=""></li>
+                                            <li><img src="images/pro-js.png" alt=""></li>
+                                            <li><img src="images/pro-figma.png" alt=""></li>
+                                        </ul>
+                                    
+                                 </div>
+                                 <div class="demo-btn">
+                                    <button><a target="_blank" href="https://rameshkorada07.github.io/FlavorFind/index.html">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project2.mp4" type="video/mp4">
+                          </video>
+                        <div class="git-icon">
+                            <p>College Portal</p>
+                            <a href="https://github.com/Rameshkorada07/college-Website" target="_blank"><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>A responsive college portal, provides easy access to info on courses, admissions, and campus life!.</p>
+                                 <div class="pro-icons">
+                                    
+                                    <ul>
+                                        <li><img src="images/pro-html.png" alt=""></li>
+                                        <li><img src="images/pro-css.png" alt=""></li>
+                                        <li><img src="images/pro-js.png" alt=""></li>
+                                    </ul>
+                                
+                             </div>
+                                 <div class="demo-btn">
+                                    <button><a href="https://rameshkorada07.github.io/college-Website/" target="_blank">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project3.mp4" type="video/mp4">
+                          </video>
+                        <div class="git-icon">
+                            <p>Gemini Clone</p>
+                            <a href=""><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>A responsive Gemini clone built with React, delivering seamless access to Gemini API data and features!</p>
+                                 <div class="pro-icons">
+                                    
+                                    <ul>
+                                        <li><img src="images/pro-html.png" alt=""></li>
+                                        <li><img src="images/pro-css.png" alt=""></li>
+                                        <li><img src="images/pro-js.png" alt=""></li>
+                                        <li><img src="images/pro-react.png" alt=""></li>
+                                    </ul>
+                                
+                             </div>
+                                 <div class="demo-btn">
+                                    <button><a href="">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project4.mp4" type="video/mp4">
+                          </video>
+                        <div class="git-icon">
+                            <p>DailyGo</p>
+                            <a href=""><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>A responsive React news app offering real-time updates by category: sports, business, tech, and more!</p>
+                                 <div class="pro-icons">
+                                    
+                                    <ul>
+                                        <li><img src="images/pro-html.png" alt=""></li>
+                                        <li><img src="images/pro-css.png" alt=""></li>
+                                        <li><img src="images/pro-js.png" alt=""></li>
+                                        <li><img src="images/pro-react.png" alt=""></li>
+                                        <li><img src="images/pro-bootstrap.jpg" alt=""></li>
+                                    </ul>
+                                
+                             </div>
+                                 <div class="demo-btn">
+                                    <button><a href="">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project5.mp4" type="video/mp4">
+                          </video>
+                        <div class="git-icon">
+                            <p>Netflix Clone</p>
+                            <a href=""><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>A responsive React Netflix clone using a movie API to fetch and display movies by categories seamlessly!</p>
+                                 <div class="pro-icons">
+                                    
+                                    <ul>
+                                        <li><img src="images/pro-html.png" alt=""></li>
+                                        <li><img src="images/pro-css.png" alt=""></li>
+                                        <li><img src="images/pro-js.png" alt=""></li>
+                                        <li><img src="images/pro-react.png" alt=""></li>
+                                    </ul>
+                                
+                             </div>
+                                 <div class="demo-btn">
+                                    <button><a href="">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <video class="project-video" autoplay loop muted>
+                            <source src="videos/project6.mp4" type="video/mp4">
+                          </video>
+                        <div class="git-icon">
+                            <p>Textify</p>
+                            <a href=""><img src="images/pro-git.png" alt=""></a>
+                        </div>
+                        <div class="pro-details">
+                            <p>A responsive React Textify app to manipulate text easily: uppercase, lowercase, word, and character count!</p>
+                                 <div class="pro-icons">
+                                    
+                                    <ul>
+                                        <li><img src="images/pro-html.png" alt=""></li>
+                                        <li><img src="images/pro-css.png" alt=""></li>
+                                        <li><img src="images/pro-js.png" alt=""></li>
+                                        <li><img src="images/pro-react.png" alt=""></li>
+                                        <li><img src="images/pro-bootstrap.jpg" alt=""></li>
+                                    </ul>
+                                
+                             </div>
+                                 <div class="demo-btn">
+                                    <button><a href="">Demo</a></button>
+                                 </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--------------------Contact me------------------------>
+
+            <div class="contact" id="contact-section">
+                <h3 class="title">Contact me</h3>
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="2ec63ffb-f71c-4902-a7b7-0b44ca39a92e">
+                    <input type="text" name="name" id="name" placeholder="Name" required>
+                    <input type="email" id="email" name="email" id="email" placeholder="Email" required>
+                    <textarea  placeholder="Message" name="message" id="message" rows="5" required></textarea>
+                    <div class="submit-btn">
+                        <button type="submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+
+            <!--------------------Footer------------------------>
+
+            <div class="footer">
+                <div class="foot-details">
+                    <h3>Ramesh Korada</h3>
+                    <h4>Frontend Developer</h4>
+                </div>
+                <div class="foot-icons">
+                    <ul>
+                        <li><a href="https://www.instagram.com/vinnu_ofcl_/" target="_blank"><img src="images/ig.png" alt=""></a></li>
+                        <li><a href="https://www.linkedin.com/in/ramesh-korada-8566622b5/" target="_blank"><img src="images/ln.png" alt=""></a></li>
+                        <li><a href="https://github.com/Rameshkorada07" target="_blank"><img src="images/gh.png" alt=""></a></li>
+                    </ul>
+                </div>
+                <div class="all-rights">
+                    <p>© 2025 Ramesh Korada. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+//function for scrollintoview
+const scrollToSection = (id) => {
+  const section = document.getElementById(id);
+  if (section) {
+    console.log(`Scrolling to section: ${id}`);
+    section.scrollIntoView({ behavior: "smooth" });
+  } else {
+    console.error(`Section with id "${id}" not found`);
+  }
+  links.style.right = '-150px';
+};
+
+
+//overlay
+const overlay = document.getElementById('overlay');
+
+//menu function
+const cancel_btn = document.getElementById("cancel-btn");
+const menu_btn = document.getElementById("menu-btn");
+const links = document.getElementById("links");
+
+const showmenu = ()=> {
+    links.style.right = '0px';
+    //overlay.style.display = 'block';
+}
+const hideMenu = ()=> {
+    links.style.right = '-150px';
+    //overlay.style.display = 'none';
+}
+
+
+
+    </script>
+
+
+</body>
+</html>
